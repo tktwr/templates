@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+
+**Title**
+  Name
+
+## List
+
+<div id="col2">
+List:
+- **bold**
+- *italic*
+- ~~strikethrough~~	
+- こんにちは
+
+Checkbox:
+- [x] item
+  - [x] item
+- [ ] item
+
+List:
+- item
+  - item
+    - item
+      - item
+- item
+  - item
+    - item
+      - item
+</div>
+
+## Table
+
+    | a  | b
+----|----|----
+A   | 0  | 0.0
+B   | 1  | 0.1
+C   | 2  | 0.2
+
+## Two Columns
+
+<div id="col2">
+You can use the CSS
+[columns](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts)
+style to make an HTML multicolumn block. Then, just use regular Markdeep within it and the
+browser will automatically apply your multicolumn layout. 
+
+Browsers are even smart enough to break the columns correctly when
+printing to PDF or to a printer. However, for a long document,
+multiple columns don't work well when displayed on screen. That's
+because there are no discrete "pages" on screen to break columns.
+
+![image](images/sample.jpg width="400px")
+</div>
+
+## Code
+
+~~~
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[]) {
+    return 0;
+}
+~~~
+
+## Equation
+
+$$ \Lo(X, \wo) = \Le(X, \wo) + \int_\Omega \Li(X, \wi) ~ f_X(\wi, \wo) ~ | \n \cdot \wi | ~ d\wi $$
+
+<!-- Markdeep: -->
+<link rel="stylesheet" href="slides.css">
+<style class="fallback">body{visibility:hidden}</style>
+<script>markdeepOptions={tocStyle:'none'}</script>
+<script src="markdeep.min.js"></script>
+<!-- Markdeep: -->
+<meta vim: set syntax=markdown: >
